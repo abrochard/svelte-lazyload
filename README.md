@@ -1,5 +1,7 @@
 # svelte-lazyload
 
+Lazy loading library using the svelte framework
+
 
 ## Getting Started
 
@@ -8,13 +10,13 @@ Look at the example folder for a simple setup.
 
 ## Installation
 
-```
+```bash
 npm i svelte-lazyload
 ```
 
 ## Usage
 
-```
+```html
 <script>
 
  import { LazyLoadContainer, LazyLoad } from 'svelte-lazyload';
@@ -51,5 +53,7 @@ npm i svelte-lazyload
 ```
 
 ## Nota bene
+
+The `id` prop is mandatory for the `<LazyLoad>` tag as it will be used to uniquely observe the element via an intersection observer.
 
 The element inside the `<LazyLoad>` tags must be able to render immediately or at least have a min-height. If not, during loading time, your component will have a height of 0, making the component under it visible and repeating the same problem. This cascade will end up loading more components than you wish for.
