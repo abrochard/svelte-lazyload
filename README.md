@@ -7,7 +7,7 @@ Lazy loading library using the svelte framework
 
 ## Getting Started
 
-Look at the [example folder][https://github.com/abrochard/svelte-lazyload/tree/master/example] for a simple setup.
+Look at the [example folder](https://github.com/abrochard/svelte-lazyload/tree/master/example) for a simple setup.
 
 
 ## Installation
