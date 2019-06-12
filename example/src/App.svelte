@@ -1,6 +1,6 @@
 <script>
 
- import { LazyLoadContainer, LazyLoad} from 'svelte-lazyload';
+ import { LazyLoadContainer, LazyLoad } from 'svelte-lazyload';
 
  let statuses = [
 	 200,
@@ -20,7 +20,6 @@
      500
  ];
 
- console.log('total', statuses.length);
 
 </script>
 
