@@ -1,7 +1,7 @@
 <script>
 
- import LazyLoadContainer from './LazyLoadContainer.svelte';
- import LazyLoad from './LazyLoad.svelte';
+ import LazyLoadContainer from '../../src/LazyLoadContainer.svelte';
+ import LazyLoad from '../../src/LazyLoad.svelte';
 
  let statuses = [
 	 200,

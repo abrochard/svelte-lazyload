@@ -1,0 +1,30 @@
+{
+  "name": "svelte-lazyload",
+  "version": "0.0.1",
+  "description": "Lazy loading library using the svelte framework.",
+  "main": "src/index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abrochard/svelte-lazyload.git"
+  },
+  "keywords": [
+    "lazy load",
+    "svelte",
+    "lazy"
+  ],
+  "author": "Adrien Brochard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abrochard/svelte-lazyload/issues"
+  },
+  "homepage": "https://github.com/abrochard/svelte-lazyload#readme",
+  "peerDependencies": {
+    "svelte": "3.x"
+  }
+}
