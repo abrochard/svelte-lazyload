@@ -1,4 +1,5 @@
 [![npm][npm]][npm-url]
+[![CircleCI](https://circleci.com/gh/abrochard/svelte-lazyload.svg?style=svg)](https://circleci.com/gh/abrochard/svelte-lazyload)
 
 # svelte-lazyload
 
