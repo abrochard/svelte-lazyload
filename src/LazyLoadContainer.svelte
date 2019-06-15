@@ -3,13 +3,14 @@
  import { key } from './util.js';
  import { setContext } from 'svelte';
 
+ export let threshold = 0.01;
+
  let cb = {};
 
  const config = {
      root: null,
      rootMargin: '0px',
-     /* rootMargin: '100px 0px', */
-     threshold: 0.01
+     threshold: threshold
  };
 
  const observer = new IntersectionObserver(entries => {

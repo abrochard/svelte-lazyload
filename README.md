@@ -55,6 +55,10 @@ npm i svelte-lazyload
 </LazyLoadContainer>
 ```
 
+### Tuning
+
+`svelte-lazyload` uses an intersection observer to determine when an element comes into the view port. It is possible to tune that behavior in accordance to the [official doc](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API#Creating_an_intersection_observer) and pass a prop `threshold` to the `LazyLoadContainer`. This number between 0 and 1 determines at which percentage of the target's visibility the element will be rendered. For example, a value of 0.5 means that the placeholder element has to be halfway visible for it to be swapped out for the child element of the `LazyLoad` tags. The default is 0.01.
+
 ## Nota bene
 
 The `id` prop is mandatory for the `<LazyLoad>` tag as it will be used to uniquely observe the element via an intersection observer.
