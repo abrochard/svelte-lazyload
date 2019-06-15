@@ -1,5 +1,6 @@
 [![npm][npm]][npm-url]
 [![CircleCI](https://circleci.com/gh/abrochard/svelte-lazyload.svg?style=svg)](https://circleci.com/gh/abrochard/svelte-lazyload)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e0c2bdd5-72a8-45d8-8981-0150ad0667b8/deploy-status)](https://app.netlify.com/sites/svelte-lazyload/deploys)
 
 # svelte-lazyload
 
@@ -8,7 +9,7 @@ Lazy loading library using the svelte framework
 
 ## Getting Started
 
-Look at the [example folder](https://github.com/abrochard/svelte-lazyload/tree/master/example) for a simple setup.
+Look at the [example folder](https://github.com/abrochard/svelte-lazyload/tree/master/example) for a simple setup or go to the [live demo page](https://svelte-lazyload.netlify.com/).
 
 
 ## Installation
