@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/abrochard/svelte-boilerplate#readme",
   "devDependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "rollup": "^1.13.1",
     "rollup-plugin-node-resolve": "^5.0.1",
     "rollup-plugin-svelte": "^5.0.3",
